@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Check out your Git repository
-                git(url: 'https://github.com/your/repo.git')
+                git(url: 'git@github.com:FalakAshok/goapplication.git')
             }
         }
 
